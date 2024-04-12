@@ -1,8 +1,47 @@
 GITHUB:
 hook in git
-dette technique=
-1. ajoute des problemes lors du dev qui rendent plus difficile d'ajouter de la valeur client
-2.productivité reduit 
+utilise SCALAR
+dette technique sont=
+  1.ajoute des problemes lors du dev qui rendent plus difficile d'ajouter de la valeur client
+  2.productivité reduit 
+
 https://docs.github.com/fr/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 
+code efficiace=
+  1. tout le modne essaie d'obtenir une meilleur qualite du code
+  2. partage des connassances
 
+Azure repos=
+  1. Clonner une référentiel existant
+  2. enregistrer ke travail avec des validations
+  3. passer en revue l'histoire des modifications
+  4. utiliser des branches à l'aide de visual studio
+
+AZ-400.00= implementer CI avec azure pipeline et github action
+
+azure pipeline = pour nénérer et tester automatiquement votre projet de code et le mettre à la dispos d'autre s users
+
+agent= 
+artefacts = compiler
+build= 
+
+CD=etape de build et de test
+CI=automatiser build et test
+CD (biner) --> CI (shell) --> deploy
+
+POOL= a plusiers projects ex machine A avec plusiier agents et machine B avec plusiers agent 
+ex: pool A = machine A avec plusier agents (dedans pluasier project)
+    pool B  = machine B avec plusieir agents (dedans pluasier project)
+    où ces projetst lier entre pool A et pool B
+
+examiner d'autres considrations=
+  authentification
+  jetons d'aces personnel
+  processus interactif 
+
+sécurité des pools d'agetns= 3 roles
+  lectur
+  compte service account
+  administrateur
+
+pipeline et concurrance =
