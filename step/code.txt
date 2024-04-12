@@ -1,0 +1,5 @@
+GITHUB:
+hook in git
+dette technique
+https://docs.github.com/fr/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+
