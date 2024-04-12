@@ -1,5 +1,8 @@
 GITHUB:
 hook in git
-dette technique
+dette technique=
+1. ajoute des problemes lors du dev qui rendent plus difficile d'ajouter de la valeur client
+2.productivité reduit 
 https://docs.github.com/fr/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+
 
