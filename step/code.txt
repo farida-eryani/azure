@@ -21,7 +21,7 @@ AZ-400.00= implementer CI avec azure pipeline et github action
 
 azure pipeline = pour nénérer et tester automatiquement votre projet de code et le mettre à la dispos d'autre s users
 
-agent= 
+agent= ex. IS en local
 artefacts = compiler
 build= 
 
@@ -44,4 +44,41 @@ sécurité des pools d'agetns= 3 roles
   compte service account
   administrateur
 
-pipeline et concurrance =
+azure pipeline(AP) et concepteur visuel=
+  modifier le code
+  pousse le référentiel de code
+  CI 
+  cree artefact
+  DC
+
+AP et yaml=
+  modifer le code
+  modifier le ficheir yaml
+  pousser le référentiel de code
+  azure pipeline(AP)
+  deployer sur la cible
+
+CI
+  system de gestion de version
+  system de gestions des packages
+  system d'integration continu
+  processus de bulid automatisé
+
+avantages CI=
+  amélioration qualité du code en fonction
+  declencement de test automatisé pour chaque modification de code
+  réduction des temps de build pour des commentaires (reducion des risques)
+  meilleure gestion de la dette techniqnue et analyse du code
+
+login auzre: user6
+mdp: @..$
+
+strategis pipeline=
+  mutliconfiguration = executez le m ensenbmel de taches sur plusiers confi
+  multiagent = executez le meme ensemble de tache sur plusiers agents
+
+
+devcontainer --> gerer par vsc
+
+
+
